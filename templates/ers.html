@@ -1,0 +1,16 @@
+<html>
+<head>
+<title> Django test</title>
+<body>
+  <ul>
+  {{nazvanie}}
+  {% for lan in langes %}
+  <li> {{lan}} </li>
+  {%empty %}
+  <li> empyty</li>
+  {%endfor %}
+  
+  </ul>
+</body>
+</head>
+</html>
